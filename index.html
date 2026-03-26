@@ -188,10 +188,17 @@
         border-color: rgba(255, 69, 0, 0.9);
       }
 
+      #button6 {
+        background: linear-gradient(135deg, #32cd32, #00ff7f);
+        border-color: rgba(50, 205, 50, 0.9);
+      }
+
       #button1:hover,
       #button2:hover,
       #button3:hover,
-      #button4:hover {
+      #button4:hover,
+      #button5:hover,
+      #button6:hover {
         transform: translateY(-3px) scale(1.03);
         box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
         color: #fff;
@@ -212,6 +219,10 @@
 
       #button5:hover {
         background: linear-gradient(135deg, #ff6347, #ffb347);
+      }
+
+      #button6:hover {
+        background: linear-gradient(135deg, #228b22, #00fa9a);
       }
 
       .btn-main i {
@@ -337,6 +348,10 @@
           <i class="fas fa-tasks"></i>
           Nộ[ bài tập tập huấn
         </a>
+        <a class="btn-main" id="button6" href="#" target="_blank">
+          <i class="fas fa-video"></i>
+          Video bài tập huấn
+        </a>
       </main>
 
       <footer>
@@ -355,6 +370,8 @@
         button4: "https://exelearning.net/en/previous-versions/",
         button5:
           "https://drive.google.com/drive/folders/1KX9llAZDee8BQEgI7QQZRZstnSopJhji",
+        button6:
+          "https://drive.google.com/drive/folders/1WBTdCNJPXJwyppoXeUVdhiNBFK_QULd7",
       };
 
       for (const id in links) {
