@@ -183,16 +183,36 @@
         border-color: rgba(106, 0, 255, 0.9);
       }
 
-      #button1:hover, #button2:hover, #button3:hover, #button4:hover {
+      #button5 {
+        background: linear-gradient(135deg, #ff4500, #ffa500);
+        border-color: rgba(255, 69, 0, 0.9);
+      }
+
+      #button1:hover,
+      #button2:hover,
+      #button3:hover,
+      #button4:hover {
         transform: translateY(-3px) scale(1.03);
         box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
         color: #fff;
       }
 
-      #button1:hover { background: linear-gradient(135deg, #ff7b1a, #ffdf4f); }
-      #button2:hover { background: linear-gradient(135deg, #2aabff, #79ddff); }
-      #button3:hover { background: linear-gradient(135deg, #ff4f88, #ff9ed6); }
-      #button4:hover { background: linear-gradient(135deg, #23e5ff, #8a43ff); }
+      #button1:hover {
+        background: linear-gradient(135deg, #ff7b1a, #ffdf4f);
+      }
+      #button2:hover {
+        background: linear-gradient(135deg, #2aabff, #79ddff);
+      }
+      #button3:hover {
+        background: linear-gradient(135deg, #ff4f88, #ff9ed6);
+      }
+      #button4:hover {
+        background: linear-gradient(135deg, #23e5ff, #8a43ff);
+      }
+
+      #button5:hover {
+        background: linear-gradient(135deg, #ff6347, #ffb347);
+      }
 
       .btn-main i {
         font-size: 1.3rem;
@@ -313,6 +333,10 @@
           <i class="fas fa-download"></i>
           Link tải eXeLearning
         </a>
+        <a class="btn-main" id="button5" href="#" target="_blank">
+          <i class="fas fa-tasks"></i>
+          Nộ[ bài tập tập huấn
+        </a>
       </main>
 
       <footer>
@@ -329,6 +353,8 @@
         button3:
           "https://descargas.intef.es/cedec/exe_learning/Manuales/manual_exe29/juegos.html",
         button4: "https://exelearning.net/en/previous-versions/",
+        button5:
+          "https://drive.google.com/drive/folders/1KX9llAZDee8BQEgI7QQZRZstnSopJhji",
       };
 
       for (const id in links) {
